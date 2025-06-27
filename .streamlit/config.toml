@@ -1,4 +1,9 @@
 [theme]
-base="light"
-primaryColor="#4f46e5"
-font="sans serif"
+base="light"               # Light theme
+primaryColor="#4f46e5"     # Indigo Tailwind-style color
+font="sans serif"          # Clean modern font
+
+[server]
+headless = true            # Required for Streamlit Cloud
+enableCORS = false         # Prevents cross-origin issues
+port = 8501                # Default Streamlit port
